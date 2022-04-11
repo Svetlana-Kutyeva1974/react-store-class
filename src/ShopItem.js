@@ -2,14 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types'; 
 import ShopClass from './ShopClass';
 
-// function ShopItemFunc({item}) {//2 вариант
-class ShopItemFunc extends React.Component {
+class ShopItemClass extends React.Component {
   /*constructor(props) {
     super(props);
     this.item = props.item; 
   }
   */
-
 
 render() {
   const { item } = this.props;  
@@ -32,8 +30,8 @@ render() {
 }
 }
 
-ShopItemFunc.propTypes = {
+ShopItemClass.propTypes = {
   item: PropTypes.instanceOf(ShopClass).isRequired
 }
 
-export default ShopItemFunc;
+export default ShopItemClass;
