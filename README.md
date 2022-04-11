@@ -1,3 +1,6 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/wgowobi7aig9mg9m?svg=true)](https://ci.appveyor.com/project/Svetlana-Kutyeva1974/react-store-class)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
